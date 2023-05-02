@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-uciqra(l)+#8&p_-y8isbv1a^ey!5%l&578n)+w@v^+^5=8bi_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['margaritacargo.com','www.margaritacargo.com']
+ALLOWED_HOSTS = ['mccargousa.com','www.mccargousa.com']
 
 
 # Application definition
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'margaritacargo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'landing_mcargo',
-        'USER': 'camviales',
-        'PASSWORD': 'camar4svialeS*17',
-        'HOST': 'mysql.sql12130.dreamhostps.com',
+        'NAME': 'mccahjpx_landing_mcargo',
+        'USER': 'mccahjpx_mcargo',
+        'PASSWORD': 'ubG@v2,glsE5',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
@@ -123,7 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/mcargo/landingmcargo.com/public/static/'
+STATIC_ROOT = '/home/mccahjpx/public_html/static/'
 #mostrar ruta fija para imagenes
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR /'media/'

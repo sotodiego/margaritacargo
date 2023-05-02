@@ -6,4 +6,5 @@ passenger_wsgi.pyc
 /margaritacargo/margaritacargo/settings.py
 /tmp
 __pycache__
-/public/static2
+/public/static2 
+token-namecheap

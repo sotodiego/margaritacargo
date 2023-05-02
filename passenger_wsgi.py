@@ -1,0 +1,1 @@
+from margaritacargo.wsgi import application

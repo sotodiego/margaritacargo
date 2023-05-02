@@ -5,6 +5,6 @@ __pycache__
 /venv/*
 favicon.gif
 favicon.ico
-passenger_wsgi.py
 passenger_wsgi.pyc
+stderr.log
 token-namecheap

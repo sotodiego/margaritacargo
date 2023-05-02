@@ -1,0 +1,989 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Envios Directos de Miami a Venezuela</title>
+    <meta name="description" content="Empresa de servicios de traslados de mercancías y especializados en el manejo y envío de cargas a nivel personal y corporativo desde Miami hasta Venezuela">
+    <meta name="canonical" content="https://margaritacargo.com/">
+    <meta name="robots" content="index"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/style-home.css' %}" rel="stylesheet" />
+    
+    <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body style="font-family:keep_calm; font-size: 15px;">
+
+    <div class="menu-cont">
+        <!--Nuevo Menu-->
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active">
+                <img class="block" id="u1461_img" src="{% static  'img/logo_pe2.png' %}" alt="" width="80" height="40">
+            </a>
+            <a href="javascript:void(0);" class="toggle" onclick="myFunction()">
+                <div class="icon"></div>
+            </a>
+            <!--a href="#news">Compras en línea</a-->
+            <ul>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#tarifas">Tarifas</a></li>
+                <li><a href="https://margaritacargo.com/tienda/">Marketplace</a></li>
+                <li><a href="https://margaritacargo.multitrack.trackingpremium.net/login">Mi casillero</a></li>
+                <li><a href="#calculate">Calculadora</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#track">Tracking</a></li>
+                <li><a href="#contact">Contáctanos</a></li>
+                <li><a href="#payments">Pagar</a></li>
+                <li><a href="#declaracion">Declaración</a></li>
+                <!--li><a href="#mudanzas">Mudanzas</a></li-->
+            </ul>
+        </div>
+    </div>
+    <!--BANNER-->
+    <div id="mainb" class="hide-xs" style="z-index: 9;position: fixed;">
+        <div class="wrapper wrapper2">
+            <!-- block added to differentiate box margin space with dashed border-->
+            <div class="box alternar-respuesta-ej1">
+                <p style="color: #fff;margin-left: -62px;">Ocultar</p>
+                <h1 class="alternar-respuesta-ej1">Tienda</h1>
+                <div id="respuesta-ej1" class="">
+                    <!-- block added to differentiate box padding space with dashed border-->
+                    <a href="https://contarmarket.com/discount/margarita-cargo"><img src="{% static 'img/BANNER MC-CONTAR_Mesa de trabajo 1.jpg' %}" alt="Marketplace" style="height: auto;margin-top: -189px;border-radius: 29px;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--BANNER-->
+    <div style="overflow: hidden">
+
+        {# MAIN #}
+        <div class="background-img vmiddle mb-ng-20" id="home">
+            <img class="img-fluid" alt="Logo MC" src="{% static 'img/logo.png' %}">
+            <img class="sm-message" alt="Mensaje" src="{% static 'img/msg.png' %}">
+        </div>
+
+        {# NOSOTROS #}
+        <img class="separator-img" alt="Separador" src="{% static 'img/line.png' %}">
+        <div class="content background-img-paper" id="about">
+            <h1 class="main-title ">NOSOTROS</h1>
+            <p align="justify" class="text-md ">MARGARITA CARGO: Somos una empresa de servicios de traslados de mercancías y nos especializamos en el manejo y envío de cargas a nivel personal y corporativo desde Miami hasta Venezuela. En nuestro almacén ubicado en el Doral (Miami – Florida) estamos en capacidad de recibir sus paquetes desde cualquier ciudad en los Estados Unidos o del mundo y entregarlos vía Marítima o Aérea en las principales ciudades de Venezuela.</p>
+
+<!--p align="justify" class="text-md ">También ofrecemos un exclusivo servicio de Mudanzas Internacionales desde Venezuela hasta Estados Unidos, diseñado para que usted pueda trasladar sus enseres personales (Menaje de Hogar) desde los principales puertos: El Guamache (Isla Margarita), La Guaira (Región Capital Caracas), Puerto Cabello (Zona Central) y Guanta (Zona Oriental), con elevados estándares de calidad. En la Sección "Mudanzas" podrá obtener más información.</p-->
+
+            <p align="justify" class="text-md ">INNOVAMOS PARA USTED! Ofrecemos un valor agregado en nuestros servicios: Confiabilidad, experiencia, los mejores precios del mercado y la posibilidad de comprar en nuestra tienda en línea con PRECIOS SIMILARES a los que tienen los productos de Walmart Grocery, y lo mejor: Usted podrá conocer automáticamente el costo de su envío; seleccionar el precio de su caja, "llenarla EN LÍNEA", pagarla y luego enviarla en forma AUTOMATIZADA a nuestro almacén en Miami. Nosotros nos encargaremos de llevarla a su destino.</p>
+            <p align="justify" class="text-md ">Somos "Su amigo en Miami", ahora no tendrá que pedir favores para que alguien le haga sus compras, con nuestra ayuda podrá hacerlo muy fácilmente desde la comodidad de su casa u oficina SIN RECARGOS ADICIONALES.</p>
+            <p align="justify" class="text-md ">Ver en el siguiente enlace los comentarios de nuestros clientes: (para verlos, se abrirán en una nueva pestaña del navegador)
+            <p><a title="Comentarios de nuestros clientes" href="https://www.google.com/search?q=MARGARITA+CARGO&amp;oq=MARGARITA+CARGO&amp;aqs=chrome..69i57j0i22i30l3j0i10i22i30j69i60.4647j0j7&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x8c318fbff6125b9f:0xfcb04b5658700736,1,,," target="_blank">CLIC AQUÍ - COMENTARIOS - OPINIONES DE NUESTROS CLIENTES</a></p>.</p>
+            <p>
+
+
+        </div>
+        {# SERVICIOS #}
+        <img class="separator-img" alt="Separador" src="{% static 'img/line.png' %}">
+        <div class="content background-img-2" id="services">
+            <h1 class="main-title3 text-center white">SERVICIOS</h1>
+            <!--div class="text-center row" style="padding-top: 45px;">
+        <div class="col-md-6 offset-md-3">
+          <img src="public/linea.png" class="linea-amarilla" style="float: left;">
+          <img src="public/linea.png" class="linea-amarilla" style="float: right;">
+          <div class="servicios-desc">
+            <h2 class="white">ENVÍOS MARÍTIMOS</h2>            
+            <p class="white">La carga de nuestros clientes llegará a su destino de manera CONFIABLE en el tiempo acordado por tán sólo:</p>
+            <h3 class="yellow">$15,50 USD x PIÉ CÚBICO</h3>
+            <p class="white">Esta tarifa ESPECIAL vía marítima ofrece otros diferentes servicios al mejor precio del mercado</p>
+          </div>
+          <img src="public/linea.png" class="linea-amarilla" style="float: left;">
+          <img src="public/linea.png" class="linea-amarilla" style="float: right;">
+        </div>
+      </div-->
+            <div class="text-center row mt-5">
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <img src="{% static 'img/services-04.png' %}" alt="Icono de Servicio CASILLERO">
+                    <h2 class="white service-title">CASILLERO</h2>
+                    <p class="white service-text">¡REGÍSTRATE y podrás recibir tus compras OnLine en nuestra Dirección en Miami, nos encargaremos de llevártelas en forma CONFIABLE y podrás monitorear tus envíos en todo momento!</p>
+                    <a href="https://margaritacargo.multitrack.trackingpremium.net/login">
+                        <h6 id="button"> CREA TU CASILLERO</h6>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <img src="{% static 'img/services-02.png' %}" alt="Icono de Servicio COMPRA ASISTIDA">
+                    <h2 class="white service-title">COMPRAS ASISTIDAS</h2>
+                    <p class="white service-text">Si necesitas comprar OnLine y no cuentas con el método de pago adecuado te asistiremos en tu compra. Podemos recibir tus Bs. (o $USD en efectivo) y nosotros pagaremos tu pedido.</p>
+                    <a href="#contact">
+                        <h6 id="button"> SOLICITAR SERVICIO</h6>
+                    </a>
+                    <!--button type="submit" class="form-control submit-btn">SOLICITAR SERVICIO</button-->
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <img src="{% static 'img/services-01.png' %}" alt="Icono de Servicio PAQUETES">
+                    <h2 class="white service-title">BUSCAMOS TUS PAQUETES</h2>
+                    <p class="white service-text">Buscamos tu mercancía en el área de Miami**, sólo dinos donde están y nos encargaremos de que llegue a la puerta de tu casa (**Ciertas condiciones aplican, Consulta las Preguntas Frecuentes).</p>
+                    <a href="#contact">
+                        <h6 id="button"> SOLICITAR SERVICIO</h6>
+                    </a>
+                    <!--button type="submit" class="form-control submit-btn">SOLICITAR SERVICIO</button-->
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <img src="{% static 'img/services-03.png' %}" alt="Icono de Servicio REEMPAQUE">
+                    <h2 class="white service-title">REEMPAQUE</h2>
+                    <p class="white service-text">¡Ahorra tu dinero! Esta modalidad le permitirá ahorrar en sus envíos. Consulta las Preguntas Frecuentes.</p>
+                    <a href="#contact">
+                        <h6 id="button"> SOLICITAR SERVICIO</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {# TARIFAS #}
+        <!--Nueva sección TARIFAS-->
+        <img class="separator-img" src="{% static 'img/line.png' %}" alt="Separador">
+        <div class="content background-img-2" id="tarifas">
+            <h1 class="main-title3 text-center white">TARIFAS</h1>
+            <div class="text-center row" style="padding-top: 45px">
+                <div class="col-md-6 offset-md-3">
+                    <div class="tarifas" id="table_tarifas">
+                        <div class="head-table">
+                            <h3>Tarifas Básicas Miami - Venezuela</h3>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Destinos</th>
+                                    <th>Marítimo (Pies Cúbicos)</th>
+                                    <th>Aéreo (Libras)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for price in prices %}                                
+                                    <tr>
+                                        {% if price.other_citys == 1 %}
+						
+                                        <td id="ciudades">
+                                           {{price.destination}} <br /><span>(Ver Ciudades)</span>
+                                            <ul id="modal-ciudades" >
+                                                <li>Anaco</li>
+                                                <li>Acarigua</li>
+                                                <li>Barinas</li>
+                                                <li>Barquisimeto</li>
+                                                <li>Cabimas</li>
+                                                
+                                                <li>Ciudad Bolivar</li>
+                                                <li>Coro</li>
+                                                <li>Cumaná</li>
+                                                <li>El Tigre</li>
+                                                <li>Guacara</li>
+                                                <li>Maracaibo</li>
+                                                <li>Maracay</li>
+                                                <li>Maturín</li>
+                                                <li>Mérida</li>
+                                                <li>Puerto Cabello</li>
+                                                <li>Puerto la Cruz</li>
+                                                <li>Puerto Ordaz</li>
+                                                <li>Punto Fijo</li>
+                                                <li>San Antonio</li>
+                                                <li>San Cristóbal</li>
+                                                <li>Ureña</li>
+                                                <li>Valencia</li>
+                                                <li>Valera</li>
+                                                <li>Valle de La Pascua</li>
+                                            </ul>
+                                        </td>
+                                        {% else %}
+                                        <td>{{price.destination}}</td>
+                                        {% endif %}
+                                        <td>{{price.price_ship}}</td>
+                                        <td>{{price.price_aerial}}</td>
+
+
+                                    </tr>
+                               
+                                {% endfor %}                                
+                               
+                            </tbody>
+                        </table>
+                        <p>
+                            Para recibir cotización de otros destinos/ciudades no incluidas
+                            acá se debe consultar al asesor comercial
+                        </p>
+                        <div class="head-table">
+                            <h3>Tiempos de Entrega Aproximado</h3>
+                        </div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Aéreo Margarita</td>
+                                    <td>8 a 10 días.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aéreo Caracas</td>
+                                    <td>5 a 8 días.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aéreo Resto del País</td>
+                                    <td>8 a 10 días.</td>
+                                </tr>
+                                <tr>
+                                    <td>Marítimo Margarita</td>
+                                    <td>4 Semanas</td>
+                                </tr>
+                                <tr>
+                                    <td>Marítimo Caracas</td>
+                                    <td>2 Semanas</td>
+                                </tr>
+                                <tr>
+                                    <td>Marítimo Resto del País</td>
+                                    <td>3 a 4 Semanas</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="head-table">
+                            <h3>Tarifa Mínima</h3>
+                        </div>
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Marítima</td>
+                                    <td>$30,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Aérea</td>
+                                    <td>$35,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="head-table">
+                            <h3>Manejo de Carga</h3>
+                            <p>Por cada paquete recibido en Warehouse</p>
+                        </div>
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Doral - Miami</td>
+                                    <td>$0,49</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="head-table">
+                            <h3>Exceso de Peso en Cajas (sobrepeso por cada caja) </h3>
+                            <p>Peso Máximo permitido por caja: 50 Libras - 25Kg</p>
+                        </div>
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Cada libra adicional por exceso de peso pagará:</td>
+                                    <td>$1,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="head-table">
+                            <h3>Seguros</h3>
+                        </div>
+                        <p>Aseguramos la carga sensible por el 10% del Valor Declarado</p>
+                        <div class="head-table">
+                            <h3>Tarifas Marítimas Refrigerado por Pie Cúbico</h3>
+                        </div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Miami - Caracas</td>
+                                    <td>$26,00</td>
+                                </tr>
+                            </tbody>
+                            <p>Tiempo de Entrega: Dos Semanas</p>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {# CALCULADORA #}
+        <img class="separator-img" src="{% static 'img/line.png' %}" alt="Separador">
+         <div class="content background-img-paper" id="calculate">
+            <h1 class="main-title3 text-center ">CALCULA <br> TU ENVÍO</h1>
+            <div class="row text-md">
+                <div class="col-md-4 offset-md-1 col-sm-12">
+                    <h4 class="" style=" font-size: 18px; ">CALCULA EL VOLUMEN DE TU ENVÍO</h4>
+                    <b class="red">Todas las casillas son requeridas</b>
+                    <br>
+                    <label for="height" style="margin-bottom: 0"><b>Destino: </b></label>
+                    <select name="destino" class="form-control" id="destino">
+                        <option value="1">Margarita</option>
+                        <option value="2">Caracas</option>
+                        <option value="3">Anaco</option>
+                        <option value="3">Acarigua</option>
+                        <option value="3">Barinas</option>
+                        <option value="3">Barquisimeto</option>
+                        <option value="3">Cabimas</option>
+                        <option value="3">Carupano</option>
+                        <option value="3">Ciudad bolivar</option>
+                        <option value="3">Coro</option>
+                        <option value="3">Cumana</option>
+                        <option value="3">El tigre</option>
+                        <option value="3">Guacara</option>
+                        <option value="3">Maracaibo</option>
+                        <option value="3">Maracay</option>
+                        <option value="3">Maturin</option>
+                        <option value="3">Merida</option>
+                        <option value="3">Puerto cabello</option>
+                        <option value="3">Puerto la cruz</option>
+                        <option value="3">Puerto ordaz</option>
+                        <option value="3">Punto fijo</option>
+                        <option value="3">San antonio</option>
+                        <option value="3">San cristobal</option>
+                        <option value="3">Ureña</option>
+                        <option value="3">Valencia</option>
+                        <option value="3">Valera</option>
+                        <option value="3">Valle de la pascua</option>
+                    </select>
+                    <label for="tipo_envio" style="margin-bottom: 0"><b>Tipo de Envío: </b></label>
+                    <select name="tipo_envio" class="form-control" id="tipo_envio" onchange="selector_envio();">
+                        <option value="1">Marítimo</option>
+                        <option value="2">Aéreo</option>
+                    </select>
+                    <div id="maritimo">
+                        <label for="height" style="margin-bottom: 0"><b>Alto (pulgadas):</b></label>
+                        <input type="number" class="form-control" id="height">
+                        <label for="width" style="margin-bottom: 0"><b>Ancho (pulgadas):</b></label>
+                        <input type="number" class="form-control" id="width">
+                        <label for="length" style="margin-bottom: 0"><b>Largo (pulgadas):</b></label>
+                        <input type="number" class="form-control" id="length">
+                        <button class="form-control calculate-btn" onClick="calculate_marit()">CALCULAR</button>
+                    </div>
+                    <div id="aereo" style="display: none;">
+                        <label for="weight" style="margin-bottom: 0"><b>Peso (libras):</b></label>
+                        <input type="number" class="form-control" id="weight">
+			 <label for="height" style="margin-bottom: 0"><b>Alto (pulgadas):</b></label>
+                        <input type="number" class="form-control" id="height_a">
+                        <label for="width" style="margin-bottom: 0"><b>Ancho (pulgadas):</b></label>
+                        <input type="number" class="form-control" id="width_a">
+                        <label for="length" style="margin-bottom: 0"><b>Largo (pulgadas):</b></label>
+                        <input type="number" class="form-control" id="length_a">
+
+                        <button class="form-control calculate-btn" onClick="calculate_aereo()">CALCULAR</button>
+                    </div>
+
+                    <h3 id="pies">PIÉS CÚBICOS: <span id="total-ft"></span></h3>
+                    <h3 id="aereo-min"></h3>
+                    <h3 class=" mb-3">COSTO: <span id="total-price"></span></h3>
+                    <h4 class=" mb-3">Peso Máximo permitido por caja: 50 Libras - 25Kg</span></h4>
+                    <h4 class=" mb-3">Cada libra adicional por exceso de peso pagará 1$ USD</span></h4>
+                    <h4 class=" mb-3">Recomendación: si su caja pesa más de 50 libras, divida la carga, haga varias cajas y
+                        evite pagar por sobrepeso. </span></h4>
+
+                </div>
+            </div>
+        </div>
+
+        {#PREGUNTAS FRECUENTES#}
+
+        <img class="separator-img" src="{% static 'img/line.png' %}" alt="Separador">
+        <section id="faq">
+            <h1 class="main-title3 text-center ">PREGUNTAS FRECUENTES</h1>
+            <div class="container">
+
+                <div class="section-header">
+
+                    <span class="section-divider"></span>
+                    <p class="section-description"></p>
+                </div>
+
+                <ul id="faq-list" class="wow fadeInUp">
+                    <li>
+                        <a data-toggle="collapse" class="collapsed" href="#faq1">¿Puedo enviar un paquete si no tengo un Casillero creado? <i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq1" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Para enviar un paquete con nuestra empresa debe tener un casillero creado, el sistema le asignará un número único de casillero que utilizará para identificar sus paquetes, ese número comienza por las letras MCI y podrá encontrarlo en su casillero una vez que lo haya creado.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq2" class="collapsed">¿Cómo crear un casillero?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq2" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Haga clic el botón "Mi Casillero" y siga las instrucciones, deje allí sus datos de contacto, (sea cuidadoso al escribir su correo y números telefónicos correctamente). Al finalizar el registro recibirá un e-mail de confirmación con la dirección de nuestro almacén en El Doral (Miami) y las instrucciones para enviar sus paquetes. EN CASO DE QUE "NO" RECIBA EL CORREO DE CONFIRMACIÓN UNA VEZ QUE HAYA CREADO SU CUENTA es posible que usted escribió con algún error su dirección de correo; de ser así debe ingresar y crear nuevamente su casillero.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq3" class="collapsed">¿Cómo enviar un paquete a Venezuela?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq3" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Los paquetes que recibimos en nuestro almacén deben tener impresa una etiqueta con los siguientes datos LEGIBLES:
+                            <p>Primero: 
+                                El número del casillero y el nombre del dueño del Casillero: ejemplo  "SU NRO DE CASILLERO / SU NOMBRE Y APELLIDO"
+                            <p>Segundo: 
+                                Nuestra dirección en Miami correctamente escrita para garantizar que podamos recibir sus paquetes en caso de que haga compras OnLine: "7547 NW 52nd St, Miami, Florida 33166 Teléfono 786.354.6162"
+
+                            <p>Tercero:
+                                En caso de que el dueño del Casillero haya enviado paquetes a nuestro almacén a través de una compra OnLine debe estar ATENTO a sus trackings, de manera que monitoree la llegada definitiva de esos paquetes a nuestro almacén, el sistema le enviará automaticamente a su casillero la información sobre los paquetes/trackings que están llegando a nuestro almacén y que le serán facturados.
+                            <p>"Muy importante: El almacén recibe paquetes sólo de Lunes a Viernes (favor no enviar paquetes los fines de semana), NO NOS HAREMOS RESPONSABLES SI ENVÍAN EL PAQUETE A UNA DIRECCIÓN ERRADA o SI SUS DATOS EN LA ETIQUETA SON CONFUSOS O ILEGIBLES. Para evitar que se le pueda extraviar su paquete POR ERROR de los repartidores indicar a las empresas de envíos que entreguen los paquetes DIRECTAMENTE en nuestro Warehouse "Suite 150" (no dejar paquetes en la recepción del edificio principal del complejo de almacenes)."
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq4" class="collapsed">¿Cuanto tiempo tarda en llegar mi paquete a Venezuela?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq4" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Dependerá del destino del paquete y de la forma de envío (Aéreo o Marítimo), en la sección "TARIFAS" se detallan los tiempos aproximados; en ocasiones en caso de existir demoras éstas podrían generarse por factores que son ajenos a nosotros como por ejemplo; clima, cambios de itinerarios de las Empresas Navieras o de las Aérolineas, tiempo en Aduanas, etc.
+                            </p>
+                            <p>
+                                En el caso particular de paquetes enviados desde Miami hacia Isla Margarita vía Marítima es importante que usted esté debidamente informado sobre lo siguiente:
+                            </p>
+                            <p>
+                                La Naviera CMA CGM  es la ÚNICA empresa que transporta contenedores desde Miami hasta Isla Margarita, nosotros mensualmente luego del cierre correspondiente le entregamos a ellos nuestro contenedor para que lo agenden en su planificación operacional y no los entreguen en la Isla. Ese tiempo de entrega puede variar entre 2 y en algunas ocasiones hasta 6 semanas y depende exclusivamente de ellos el manejo de esos lapsos de tiempo; sin embargo el promedio que manejamos es de 4 semanas. Hacemos esta aclaratoria a nuestros clientes por cuanto NO depende de nosotros esa operación. Por seguridad y en procura de que usted reciba INTACTOS sus paquetes, preferimos traer nuestra carga marítima DIRECTA desde Miami hasta Margarita sin pasar por Caracas, debido a la inseguridad y riesgo en las carreteras del país, aunado a la escasez actual de combustible.
+                            <p> Si usted desea que su carga llegue a Isla Margarita en un tiempo menor a ese promedio le sugerimos enviarla vía Aérea (tarda aproximadamente 2 semanas); obviamente el precio por envíos aéreos es mayor (más costoso) que el de los marítimos.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq5" class="collapsed">¿Puedo monitorear el estatus o ubicación de mis paquetes?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq5" class="collapse" data-parent="#faq-list">
+                            <p>Para las cargas hacia Margarita:
+                            <p>Sí, una vez que recibimos sus paquetes en nuestro almacén allí estarán resguardados por nosotros, generalmente cerramos las puertas del contenedor los días Viernes y la semana siguiente entregamos el mismo a la Aduana de Miami; a partir de ese momento publicaremos un TRACKING en nuestra página web (sección TRACKING) para que usted pueda monitorear la ubicación del Barco y sus fechas de estimado en llegar a Margarita. Adicional a esto le estaremos enviando notificaciones y/o actualizaciones de la información a través del sistema; ingresando a "MI CASILLERO" podrá acceder a esas notificaciones.
+
+                            <p>Para las cargas hacia el resto del País:
+                            <p>Podrá solicitar información sobre la ubicación de su paquete a través del correo: MiCasillero@MargaritaCargo.com previamente debe considerar los tiempos de llegada que se encuentran publicados en la sección TARIFAS de nuestra página web, además recibirá una notificación a través de su casillero sobre el status de su carga y sobre la llegada de la misma al destino.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq6" class="collapsed">¿Cuánto cuesta enviar un paquete a Venezuela?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq6" class="collapse" data-parent="#faq-list">
+                            <p>
+                                En la sección "TARIFAS" se encuentra publicada esta información, igualmente tenemos una herramienta llamada CALCULADORA para que usted mismo pueda cotizar el precio de envío de un paquete hacia Venezuela.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq6x" class="collapsed">¿Cobran por peso, cual es el peso máximo permitido por caja?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq6x" class="collapse" data-parent="#faq-list">
+                            <p>
+                                En los envíos marítimos NO cobramos por peso, sólo por volumen, lo que significa que usted NO debería sobrecargar de peso sus cajas ya que se podrían deteriorar en el viaje y no nos haríamos responsables por los daños. Si usted quiere enviar UNA CAJA GRANDE (MUY GRANDE) le sugerimos que divida la carga en varias cajas de menor tamaño para facilitar el manejo de ellas; el volumen será igual y pagará el mismo precio. En consecuencia, toda caja mayor a 50 libras - 25 kg. pagará por cada libra adicional 1$ USD por sobrepeso.
+
+                            <p>Los envíos aéreos SI se cobran por peso; ver la seccción TARIFAS. Igualmente sugerimos no enviar cajas mayores a 50 libras.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq6ax" class="collapsed">¿Cual es el límite de responsabilidad que cubren durante el envío de mi carga?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq6ax" class="collapse" data-parent="#faq-list">
+
+                            <p>Toda carga con valor mayor a 100$ USD deberá asegurarse; el costo del seguro será el 10% del valor de la carga declarada.
+                            <p>
+                            <p>El límite máximo de responsabilidad para productos NO ASEGURADOS será de 100$ USD por cuanto la carga pasa por varias revisiones de seguridad e inspecciones en la Aduana Americana y en la Aduana Venezolana y está expuesta a extravíos o daños por manipulación.
+                            </p>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq6a" class="collapsed">¿Puedo asegurar mi carga?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq6a" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Podemos asegurar su carga, por un costo del 10% del valor de la misma.
+                            <p>
+                                En caso de que su paquete contenga algún producto electrónico NO SOMOS RESPONSABLES por defectos de fábrica. Si desea que probemos el funcionamiento de su equipo electrónico antes de que sea enviado a Venezuela consulte a su asesor, por un coste adicional podríamos ofrecerle este servicio.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq6aa" class="collapsed">¿Necesito declarar mi carga?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq6aa" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Las autoridades aduaneras de ambos países exigen la declaración del contenido de los paquetes.
+                            <p>
+                                Hay algunos productos de restringida exportación hacia Venezuela sobre los cuales las autoridades Americanas tienen especial atención; otros productos son restringidos o prohibidos por las Autoridades Aduaneras Venezolanas, para mayor información sobre este tema le sugerimos tomar contacto con nuestros asesores; pero en líneas generales todos los productos relacionados con comida, medicinas, insumos médicos y artículos de uso PERSONAL no tienen ningún tipo de restricción ni en EEUU ni en Venezuela. Las cargas con fines COMERCIALES deben declararse y asegurarse previa presentación de factura con un coste del 10% del valor de la declaración, así como también deben declararse y asegurarse los productos PERSONALES tipo electrónicos, de línea blanca y marrón; por tanto NO NOS HAREMOS RESPONSABLES POR LOS DAÑOS O PÉRDIDAS DE ESOS PRODUCTOS SI NO ESTÁN DEBIDAMENTE DECLARADOS Y ASEGURADOS, entiéndase que las Autoridades Aduaneras de ambos países podrían MANIPULAR sus paquetes y quedar expuestos a daños (o extravíos) por esa razón.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq6aaa" class="collapsed">¿Cuanto tiempo tengo para retirar mi carga una vez que me notifiquen que llegó y está lista para entrega?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq6aaa" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Tendremos sus paquetes disponibles en nuestro almacén para su entrega por un máximo de 60 días continuos a partir del momento que le notifiquemos que puede retirarlos. Después de ese periodo de tiempo NO NOS HAREMOS RESPONSABLES de ellos.
+                            </p>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq7" class="collapsed">¿Como puedo calcular cuántos pies cúbicos tiene mi paquete?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq7" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Es muy fácil, tome una cinta métrica y mida en PULGADAS el tamaño de su caja (la lectura de la cinta métrica en su parte inferior dá centímetros, y en su parte superior pulgadas) sea cuidadoso al tomar las medidas con la lectura superior en "pulgadas". Tome nota sobre: ALTO, ANCHO Y LARGO DE SU CAJA en pulgadas, luego ingrese a nuestra página web MargaritaCargo.com y busque allí el botón "CALCULADORA", coloque esas medidas en el sistema y obtendrá automáticamente la tarifa a pagar.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq8" class="collapsed">¿Cuándo (en qué fecha) debo pagar por el envío de mi paquete?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq8" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Una vez que le enviemos la factura a través del sistema "Mi Casillero" podrá pagarla. Para garantizar que carguemos sus paquetes en el Contenedor SU FACTURA DEBE ESTAR PAGA antes del día de cierre, es decir, NO estaremos obligados a traer su carga a Venezuela si no hemos recibido la totalidad del pago antes de cerrar el contenedor.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq9" class="collapsed">¿Cuáles son las formas de pago que aceptan?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq9" class="collapse" data-parent="#faq-list">
+                            <p>Recibimos pagos mediante Zelle en la siguiente cuenta Empresarial a nombre de Margarita Cargo Inc: pagos@MargaritaCargo.com</p>
+                            <p>Para recibir pagos en moneda local o efectivo en USD debe contactarnos previamente.</p>
+                            <p>Para recibir pagos con Tarjeta de Crédito Internacional contacte al asesor para que éste le envíe a su correo un link de nuestra plataforma de cobros OnLine totalmente segura y confiable, **4% de Gastos Bancarios aplican en esta modalidad.</p>
+                            <a href="https://www.paypal.com/paypalme/MargaritaCargo" title="Nuestra cuenta PayPal">Pagar en nuestra cuenta PayPal aquí, **Sumar sobre el monto inicial 7% Gastos Bancarios que aplican en esta modalidad.</a>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq10" class="collapsed">¿Entregan los paquetes a domicilio?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq10" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Sólo en Margarita y Caracas entregamos a domicilio los paquetes, pero debido a la crisis y falta de combustible en el país las fechas de entrega estará sujeta a la posibilidad de que consigamos combustible.
+
+                            <p> En el caso de Margarita, podrán retirarlos en nuestras oficinas ubicadas detrás del Sambil en Pampatar.
+
+                            <p> En el resto del país los paquetes deben ser retirados por el cliente en las oficinas de una Empresa de Encomiendas Aliada, a la cual nosotros le consignamos la carga para que ellos por instrucciones nuestras la entreguen al cliente en el destino final con un número de guía y la identificación respectiva del cliente.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq11" class="collapsed">¿Hacen envíos aéreos?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq11" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Si hacemos envíos aéreos a toda Venezuela; en la sección TARIFAS podrá encontrar más información sobre los precios y tiempos de entrega aproximados.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq12" class="collapsed">¿Ustedes buscan mis paquetes en Miami (en mi casa) y los pueden llevar a su almacén?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq12" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Sí, bajo las siguientes condiciones:
+                                Sólo si su dirección se encuentra en el área de Miami y su carga es igual o mayor a 10 pies cúbicos es gratis; para otras direcciones o volúmenes menores consultar con su asesor; podríamos prestar el servicio por un costo adicional.
+
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq13" class="collapsed">¿Como hago para enviar un paquete a Venezuela si estoy fuera de la zona de Miami?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq13" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Simplemente debe enviarnos sus paquetes a través de un amigo o del servicio postal y/o de paqueterías a nuestro almacén ubicado en el Doral (Miami), nosotros se lo haremos llegar a su destino de la forma más segura y siguiendo sus indicaciones.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq14" class="collapsed">¿Hacen Reempaques?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq14" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Si hacemos un servicio de reempaque básico gratuito y debe solicitarlo por escrito al correo MiCasillero@MargaritaCargo.com pero tenga en cuenta que una semana antes de la fecha de cierre NO HACEMOS REEMPAQUES por razones lógisticas; eso significa que cada paquete que llegue luego de ese plazo será cubicado, registrado en el sistema, facturado y paletizado tal cual como se recibe; por ello sugerimos hacer sus compras con suficiente anticipación a la fecha del cierre para disfrutar de este servicio.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq15" class="collapsed">¿Puedo solicitar que ustedes abran mis paquetes al recibirlos en su almacén en Miami y que devuelvan algún producto a mi vendedor?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq15" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Podemos prestar ese servicio, le enviaremos un video de la apertura de sus paquetes y le haremos la devolución, pero eso tendrá un costo adicional sobre el precio del envío a Venezuela, consultar al asesor.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq30" class="collapsed">¿Puedo solicitar el servicio de Inspección de mis paquetes cuando lleguen a su almacén en Miami para verificar que mis productos hayan llegado completos y en buen estado?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq30" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Podríamos prestar ese servicio; pero tendría un costo adicional a la tarifa del envío; consultar al asesor.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq16" class="collapsed"> ¿Llevan paquetes a otras ciudades del interior de Venezuela?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq16" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Llevamos paquetes a toda Venezuela vía marítima y aérea, en la sección TARIFAS podrá ver los destinos y precios; en caso de que alguna ciudad o población de su interés NO aparezca en esa lista en muy probable que también lleguemos allí; sólo debe contactar a un asesor al correo: MiCasillero@MargaritaCargo.com y hacerle la consulta.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq17" class="collapsed">¿Cuál es el horario de atención en sus Oficinas en Isla Margarita y en Miami?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq17" class="collapse" data-parent="#faq-list">
+                            <p>Atendemos en nuestras oficinas en Isla Margarita de Lunes a Viernes de 8.30am a 4pm, responderemos sus correos, llamadas y WhatsApp en esos horarios.</p>
+                            <p>Muy importante: El almacén en Miami recibe paquetes sólo de Lunes a Viernes de 9am a 6pm (favor no enviar paquetes los fines de semana), NO NOS HAREMOS RESPONSABLES SI ENVÍAN EL PAQUETE A UNA DIRECCIÓN ERRADA o SI SUS DATOS EN LA ETIQUETA SON CONFUSOS O ILEGIBLES. Para evitar que se le pueda extraviar su paquete POR ERROR de los repartidores indicar a las empresas de envíos que entreguen los paquetes DIRECTAMENTE en nuestro Warehouse "Suite 150" (no dejar paquetes en la recepción del edificio principal del complejo de almacenes).
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq6b" class="collapsed">¿Puedo enviar un vehículo desde Miami a Margarita?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq6b" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Si, puedes enviarlo con nosotros y también podríamos asesorarte en la compra y aclarar todas tus dudas; para más información puedes contactarnos al siguiente WhatsApp +1.786.624.98.68
+                            <p>
+                            </p>
+                        </div>
+                    </li>
+
+
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq18" class="collapsed">¿Cómo funciona el Servicio de Compras Asistidas?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq18" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Usted podrá hacer su lista de compras OnLine en tiendas como Amazon, Walmart, Sams Club y otras; solicitar una cita para ir a nuestra oficina al correo: MiCasillero@MargaritaCargo.com, debe informarnos previamente el monto estimado de su compra. Nosotros pagaremos su compra con nuestras Tarjetas de Crédito internacionales y usted nos pagará ese mismo monto “sin recargos” en USD en efectivo o moneda local. Sus paquetes llegarán a nuestro almacén en Miami y se los entregaremos en Venezuela (previo pago de la tarifa correspondiente al envío).
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq19" class="collapsed">¿Que es la Tienda en Línea que está en MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq19" class="collapse" data-parent="#faq-list">
+                            <p>
+                                El concepto de la tienda en línea es ofrecerle a los clientes de MargaritaCargo.com la posibilidad de comprar OnLine productos de Walmart Grocery a precios similares; y permitir que en forma automatizada se conozca el monto a pagar por el flete (envío) a Venezuela. El cliente podrá escoger el precio de su envío (relacionado con el tamaño de la caja que escoja).
+                                Este novedoso sistema le ayudará a ahorrar en sus compras debido a que sólo se pagará el precio del producto sin recargos adicionales y se podrá seleccionar automáticamente el presupuesto adecuado para el pago del flete a Venezuela.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq20" class="collapsed">¿Cómo funciona el Servicio de Tienda en Línea de nuestro sitio web MargaritaCargo.com (Supermercado OnLine)?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq20" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Nuestra tienda en Línea tiene más de 3.000 productos publicados de Walmart Grocery, los precios son similares a los de esa tienda OnLine, la intención es que usted compre allí y que esa mercancía se la entreguemos en Venezuela, con la ventaja de conocer automáticamente el precio del envío -sin demoras ni tiempos de espera de un presupuesto-.
+                            <p>En consecuencia, para su comodidad diseñamos un novedoso sistema donde antes de iniciar la compra (hacernos un pedido) podrá escoger el tamaño de la caja en base a su presupuesto (ofrecemos tarifas de envíos en cajas de 44,99$, 64,99$ y 99,99$).
+                            <p>Luego, usted comenzará a llenar su carrito de compras con los productos de su preferencia –automáticamente el sistema irá descontando el espacio disponible en su caja a medida que seleccione los productos- y éste le indicará claramente el espacio disponible para que la llene lo más que se pueda y pague sólo el monto de su compra (sin recargos) más el precio del envío (tamaño de su caja).
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq21" class="collapsed">¿Como puedo ingresar a la tienda en línea para hacer compras (HACER UN PEDIDO)?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq21" class="collapse" data-parent="#faq-list">
+                            <p>
+                            <p> A.-Antes de comenzar a utilizar la tienda en Línea usted debe haber creado su Casillero. </p>
+                            <p>B.-Para ingresar a la tienda haga clic en el botón MARKETPLACE</p>
+                            <p>C.-Luego escoja el tamaño de su caja (la podrá cambiar cuando guste) en el botón: “Escoja su Caja”.</p>
+                            <p>D.-Después haga clic en el botón “Seguir comprando”, familiaricese con todos los productos que ofrecemos revisando la sección: “Categorías” dentro de cada categoría verá los diversos artículos, con su respectiva descripción, precios e imágenes.</p>
+                            <p>E.-Si desea agregar al Carrito de Compras algún producto de su interés haga clic en el botón “AÑADIR AL CARRITO” (lo podrá retirar cuando guste), note que en la parte superior derecha de su pantalla hay una figura –imagen de una caja con la indicación del porcentaje de espacio disponible que le queda a la caja.</p>
+                            <p>F.- A medida que escoja los productos y los ingrese al carrito, la caja irá disminuyendo su capacidad. Si desea seguir comprando y la caja que inicialmente escogió se torna pequeña para sus productos, podrá cambiar a un tamaño mayor en el botón: “Escoja su Caja”.</p>
+                            <p>G.-En cualquier momento podrá ver el detalle de su pedido, quitar productos, subir o bajar las cantidades de ellos en el botón “Carrito” (ubicado en la parte superior derecha) y para ver más detalles, luego allí mismo en la parte inferior hacer clic en “Ver Carro”.</p>
+                            <p>H.-En el Botón “Ordenar” podrá finalizar su pedido y enviar la orden. Nos comunicaremos con usted para confirmarle su compra y aclararle cualquier otra duda que pueda tener.</p>
+                            <p>I.-Muy Importante: La compra “Mínima” debe ser superior a 35$ USD para que el sistema la acepte.</p>
+
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq22" class="collapsed">¿Cuáles son los servicios que pagaré cuando compro en la Tienda En Línea de MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq22" class="collapse" data-parent="#faq-list">
+                            <p>
+                                El desglose de su factura será el siguiente:
+                            <p>Sub-Total: Sumatoria de los artículos seleccionados Ejemplo: 120,00$ USD</p>
+                            <p>Impuestos de Miami 7% (obligatorios en todas las tiendas) : 8,40$ USD</p>
+                            <p>Sub-Total Productos.…………………………………………………................……….: 128,40$ USD</p>
+                            <p>Flete (monto de acuerdo al tamaño de la caja, Ej. Pequeña).: 34,99$ USD</p>
+                            <p>TOTAL GENERAL A PAGAR…………………………………………………..................: 163,39$ USD</p>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq23" class="collapsed">¿Sobre ese “Monto Total a Pagar” que porcentaje de ahorro me representa con relación a comprar directamente esos mismos productos en Venezuela?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq23" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Por las condiciones País que actualmente padece Venezuela y la brutal hiperinflación que nos afecta, se ahorrará hasta más de un 50% ya que que esos mismos productos en Venezuela (en muchos casos) cuestan en los Bodegones y Supermercados MÁS DEL DOBLE del precio que los vende Walmart Grocery. Indudablemente si tiene un poco de paciencia para esperar que sus paquetes lleguen a Venezuela, podrá comprar en línea desde la comodidad de su casa y pagará el producto muchísimo más barato con la tranquilidad de que se lo entregaremos de forma confiable pagando un flete razonable (decidido por usted en forma automática), sin cargos ocultos con un valor agregado y un servicio de muy buena calidad.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq24" class="collapsed">¿Como puedo pagar mi compra en la Tienda En Línea de MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq24" class="collapse" data-parent="#faq-list">
+                            <p>Recibimos pagos mediante Zelle en la siguiente cuenta Empresarial a nombre de Margarita Cargo Inc: pagos@MargaritaCargo.com</p>
+                            <p>Para recibir pagos en moneda local o efectivo en USD debe contactarnos previamente.</p>
+                            <p>Para recibir pagos con Tarjeta de Crédito Internacional contacte al asesor para que éste le envíe a su correo un link de nuestra plataforma de cobros OnLine totalmente segura y confiable, **4% de Gastos Bancarios aplican en esta modalidad.</p>
+                            <a href="https://www.paypal.com/paypalme/MargaritaCargo" title="Nuestra cuenta PayPal">Pagar en nuestra cuenta PayPal aquí, **Sumar sobre el monto inicial 7% Gastos Bancarios que aplican en esta modalidad.</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq25" class="collapsed">¿Cuando debo pagar mi compra en la Tienda En Línea de MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq25" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Podrá pagar en Línea con Tarjetas de Crédito o PayPal, si decide hacerlo por Zelle o USD $ Efectivo tendrá máximo 48 Horas para pagar.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq26" class="collapsed">¿Después que haga mi pago, en cuanto tiempo recibiré mis paquetes con esas compras de la Tienda En Línea de MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq26" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Dependerá del destino del paquete y de la forma de envío (Aéreo o Marítimo), en la sección "TARIFAS" se detallan los tiempos aproximados; en ocasiones en caso de existir demoras hay que considerar factores que son ajenos a nosotros como por ejemplo; clima, cambios de itinerarios de las Empresas Navieras o de las Aérolineas, tiempo en Aduanas, etc.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq27" class="collapsed">¿Hay alguna garantía de que me lleguen completos y en buen estado los productos que compre en la Tienda En Línea de MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq27" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Garantizamos que sus productos los recibirá completos y en buen estado; aclarando que en ocasiones Walmart Grocery (la tienda donde compramos los productos para usted) sustituye productos por otros de similares características y por políticas de venta eso no podemos evitarlo. En caso de que la falte algún producto que haya ordenado le haremos el reembolso respectivo o se lo intentaremos comprar nuevamente en un próximo pedido.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a data-toggle="collapse" href="#faq28" class="collapsed">¿Puedo hacer devoluciones de mis compras en la Tienda En Línea de MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq28" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Una vez que usted pague sus compras NO se podrán hacer devoluciones, debido a que nosotros sólo intermediamos para comprar en las tiendas los productos que usted seleccionó y NO estamos recargando el precio de los mismos. El servicio que le prestamos es EXCLUSIVAMENTE de “envíos de sus paquetes” a Venezuela por el precio previamente acordado, para lo cual inspeccionamos en nuestro almacén que su compra esté COMPLETA y garantizamos que esos productos usted los reciba en buenas condiciones.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq29" class="collapsed">¿Como puedo comprar un producto que NO aparezca en la Tienda En Línea de MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq29" class="collapse" data-parent="#faq-list">
+                            <p>
+                                Podríamos incluir en nuestra tienda en línea los productos sugeridos por usted, consulte a su asesor.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq31" class="collapsed">¿Cuáles son los términos y condiciones de funcionamiento de la Tienda En Línea de MargaritaCargo.com?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq31" class="collapse" data-parent="#faq-list">
+                            <p>
+                            <p>CONDICIONES GENERALES Y POLÍTICAS PARA COMPRAS EN LÍNEA EN LA TIENDA WALMART GROCERY:</p>
+
+                            <p>1. Los productos seleccionados en el Marketplace de Margarita Cargo INC y colocados en una orden de compra en línea NO tienen ningún recargo adicional a los precios que publica en su sitio web Walmart Grocery.
+                            <p>2. Margarita Cargo INC acepta reembolsar al cliente cualquier diferencia que resulte del despacho final de la compra que recibimos de Walmart Grocery.
+                            <p>3. Margarita Cargo INC hará todo lo posible para que el cliente reciba los productos que inicialmente pidió; pero no puede hacerse responsable por traer un producto que Walmart Grocery haya sacado de stock al momento de entregarnos el pedido del cliente.
+                            <p>4. El cliente acepta la posibilidad de que cualquiera de los productos que inicialmente seleccionó pueda ser sustituido por uno de similares características y precios, por cuanto la tienda Walmart Grocery sólo vende en línea bajo esas condiciones.
+                            <p>5. El cliente acepta la posibilidad de que cualquiera de los productos que inicialmente pidió pueda variar de precio al momento de que Margarita Cargo INC los vaya a pagar en la tienda Walmart Grocery; por esa razón recibirá la factura definitiva de Walmart Grocery dentro de su caja para que pueda conciliar su pedido. 
+                            <p>6. Margarita Cargo INC no estará obligada a entregar exactamente la misma cantidad de productos inicialmente pedidos por el cliente, por cuanto los precios podrían variar, en ese sentido el cliente recibirá los productos ajustados al monto que inicialmente pagó.  
+                            <p>7. Es importante que nuestros clientes comprendan que hacemos un esfuerzo tecnológico y logístico para traer los productos de  Walmart Grocery que ellos hayan seleccionado sin recargos adicionales, más que el cobro natural del flete hacia Venezuela. Llevamos un registro fotográfico cuando recibimos y embalamos los productos en el almacén de Miami y antes de entregar el pedido en Isla Margarita nuevamente hacemos un registro fotográfico para evitar reclamos por alguna falta de productos.
+                            
+                            <p>COMPRENDEMOS QUE SI USTED DESEA COLOCAR UN PEDIDO Y PAGARLO, ACEPTA ESTOS TÉRMINOS Y CONDICIONES.</p>
+                            <p>Nos reservamos el derecho de anular una orden de compra en caso de NO recibir respuesta oportuna por parte del cliente ante la solicitud de revisión de nuestra parte.</p>
+
+
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#faq29a" class="collapsed">¿Cuales son los productos de prohibida importación hacia Venezuela?<i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <div id="faq29a" class="collapse" data-parent="#faq-list">
+                            <p> Quedarán sujetos a decomiso por la Aduana Venezolana cualquiera de los productos descritos a continuación:
+                            <p>*Amianto
+                            <p>*Antigüedades (que puedan quebrarse o frágiles)
+                            <p>*Asbesto
+                            <p>*Billetes de avión, un balance en blanco (NI)
+                            <p>*Joyas, vestuario
+                            <p>*Dinero en efectivo.
+                            <p>*Marfil
+                            <p>*Material peligroso o combustible (de acuerdo a los reglamentos de la IATA)
+                            <p>*Mercancías peligrosas, haz. o peine. esteras
+                            <p>*Metal Bruto
+                            <p>*Pieles
+                            <p>*Pornografía
+                            <p>*Tarjeta de crédito en blanco (NI)
+                            <p>*Mascaras Anti Gas
+                            <p>*Chalecos Anti Bala y de Protección Personal
+                            <p>*Bastones Policiacos o de Defensa Personal
+                            <p>*Equipo de Protección Personal (Deportiva / Policial)
+                            <p>*Pistolas / Rifles y Municiones de Todo Tipo (Deportivas, de Pintura, de Balines, de Aire)
+                            <p>*Hondas de Cualquier Tipo
+                            <p>*Ballestas
+                            <p>*Flechas
+                            <p>*Miras Telescópicas
+                            <p>*Walkie-Talkies / Radios de Comunicación 2 Vías
+                            <p>*Drones
+                            <p>*Aerosoles de Protección Personal (de Gas, de Pimienta)
+                            <p>*Kit de Primeros Auxilios
+                            <p>*Gotas para Ojos
+                            <p>*Batas Quirúrgicas
+                            <p>*Gasas / Esparadrapos Médicas
+                            <p>*Antiácidos
+                            <p>*Armas Electrónicas de Protección Personal (Electroshock)
+                            <p>*Balines (de Acero, de Goma)
+                            <p>*Canicas de cualquier Tipo y Material
+                            <p>*Plomos de Pesca
+                            <p>*Artículos Conteniendo Gas/Aire Comprimido
+                            <p>*Cuchillos de Cualquier Tipo / Clase (incluyendo Machetes & Hachas)
+                            <p>*Artículos de Camuflaje
+                            <p>*Cascos de Cualquier Tipo
+                            <p>*Pecheras y Petos
+                            <p>*Lentes / Gafas Protectores
+                            <p>*Mascaras Desechables
+                            <p>*Guantes Protectores (Industriales, de Trabajo, Quirúrgicos, de Latex, de Goma)
+                            <p>*Pelotas de Golf
+                            <p>*Pelotas de Béisbol
+                            <p>*Bates de Beisbol
+                            <p>*Mascaras Protectoras
+                            <p>*Mascaras de Ski / Pasamontañas
+                            <p>*Coderas y Rodilleras Protectoras
+                            <p>*Megáfonos
+                            <p>*Globos de Todo Tipo
+                            </p>
+                        </div>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </section><!-- #faq -->
+        <img class="separator-img" src="{% static 'img/line.png' %}" alt="Separador">
+        <!-- Tracking-->
+
+        {# TRACKING #}
+        <div align="center" class="content" id="track">   
+
+           
+                <h1 class="main-title3 text-center ">TRACKING MARÍTIMO: Miami-Margarita</h1>  
+    
+                <table class="table">
+                    <thead>
+                      <tr>                        
+                        <th scope="col">Destino</th>
+                        <th scope="col">Fecha de cierre</th>
+                        <th scope="col">Fecha de salida</th>
+                        <th scope="col">Fecha estimada de llegada</th>
+                        <th scope="col">Estatus</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        {% for track in tracks %}                         
+                        <tr>                            
+                            <td>{{ track.destination }} </td>
+                            <td>{{ track.deadline_container }} </td>
+                            <td>{{ track.departure_date }} </td>
+                            <td>{{ track.estimated_arrived }} </td>
+                            <td>{{ track.status }} </td>                            
+                        </tr>                       
+                        {% endfor %}                                 
+            
+                    </tbody>
+                  </table>            
+                
+                <h3> 
+                <b> Aéreo: </b>Salida todos los Jueves.
+                </h3>         
+
+        </div>
+
+        <!-- tracking-->
+        <!-- tracking-->
+
+        {# CONTACTANOS #}
+        <img class="separator-img" src="{% static 'img/line.png' %}" alt="Separador">
+        <div class="content background-img-contact" id="contact">
+            <h1 class="main-title3 text-center white">CONTÁCTANOS</h1>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <p class="white"><b>Contáctanos</b> Para informarte sobre nuestros servicios de envíos desde Miami hasta Venezuela.</p>
+                    <p class="white">Uno de nuestros asesores te responderá en breve, recuerda colocar tu número de WhatsApp.</p>
+                    <p class="white">Más Información: WhatsApp: +58.424-878.4760 / +58.412.252.9424 / +1.786.354.6162</p>
+                    <form name="form1" id="form1" method="post" onsubmit="javascript:return enviarcorreo(this);">
+                        <input type="text" class="form-control my-3" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+                        <input type="email" class="form-control my-3" id="mail" name="email" placeholder="Email">
+                        <input type="text" class="form-control my-3" id="content" name="content" placeholder="Escriba aquí su Mensaje (y su WhatsApp)" style="height: 200px">
+                        <button id="enviar" type="submit" class="form-control submit-btn">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+            <p class="white" style="text-align: center;">ATENCIÓN AL CLIENTE EN ISLA MARGARITA:</p>
+            <p class="white" style="text-align: center;">Dirección: Calle Principal San Lorenzo, Centro AM Office Depot, Torre A, OFC. 2E (Detrás del Sambil) Pampatar 6316, Nueva Esparta Telefs. +58.295-267.71.57 / 262.91.43</p>
+            <p class="white" style="text-align: center;">Horarios de Atención en Isla Margarita: de Lunes a Viernes, de 8.30am a 4pm</p>
+            <p class="white" style="text-align: center;">ATENCIÓN AL CLIENTE EN MIAMI - FLORIDA: </p>
+            <p class="white" style="text-align: center;">Dirección: 7547 NW 52nd St, Miami, Florida 33166 - Telefs: +1.786.354.6162 - +1.786.624.9868</p>
+            <p class="white" style="text-align: center;">Horarios de Atención en el Doral: de Lunes a Viernes, de 9am a 6pm</p>
+            <p class="white" style="text-align: center;">Muy importante: El almacén recibe paquetes sólo de Lunes a Viernes (favor no enviar paquetes los fines de semana), NO NOS HAREMOS RESPONSABLES SI ENVÍAN EL PAQUETE A UNA DIRECCIÓN ERRADA o SI SUS DATOS EN LA ETIQUETA SON CONFUSOS O ILEGIBLES. Para evitar que se le pueda extraviar su paquete POR ERROR de los repartidores indicar a las empresas de envíos que entreguen los paquetes DIRECTAMENTE en nuestro Warehouse "Suite 150" (no dejar paquetes en la recepción del edificio principal del complejo de almacenes).</p>
+            <p class="white" style="text-align: center;">ATENCIÓN AL CLIENTE EN LA REGIÓN CAPITAL - CARACAS: (Previa Cita) </p>
+            <p class="white" style="text-align: center;">Dirección: Zona Industrial La Urbina, Calle 8 con calle 5, Edif. Caney. Piso 2</p>
+            <p class="white" style="text-align: center;">Números de contacto: Telefs. +58.424.184.8770 - +58.414.323.8051</p>
+        </div>
+
+        {# PAYMENTS #}
+        <img class="separator-img" src="{% static 'img/line.png' %}" alt="Separador">
+        <div class="content background-img-2" id="payments">
+            <h1 class="main-title3 text-center white">Pagar</h1>
+            <div class="text-center row" style="padding-top: 45px;">
+                <div class="col-md-6 offset-md-3 services">
+
+                    <p class="white" style="text-align: center;">Recibimos pagos mediante Zelle en la siguiente cuenta Empresarial a nombre de Margarita Cargo Inc: pagos@MargaritaCargo.com</p>
+                    <p class="white" style="text-align: center;">Para recibir pagos en moneda local o efectivo en USD debe contactarnos previamente.</p>
+                    <p class="white" style="text-align: center;">Para recibir pagos con Tarjeta de Crédito Internacional contacte al asesor para que éste le envíe a su correo un link de nuestra plataforma de cobros OnLine totalmente segura y confiable, **4% de Gastos Bancarios aplican en esta modalidad.</p>
+                    <a href="https://www.paypal.com/paypalme/MargaritaCargo" title="Nuestra cuenta PayPal">Pagar en nuestra cuenta PayPal aquí, **Sumar sobre el monto inicial 7% Gastos Bancarios que aplican en esta modalidad.</a>
+
+
+                </div>
+            </div>
+        </div>
+        {# DECLARACIÓN JURADA#}
+        <img class="separator-img" src="{% static 'img/line.png' %}" alt="Separador">
+        <div class="content background-img-2" id="declaracion">
+            <h1 class="main-title3 text-center white">Declaración Jurada</h1>
+            <div class="text-center row" style="padding-top: 45px;">
+                <div class="col-md-6 offset-md-3 services">
+                    <p>
+                        <a href="https://margaritacargo.com/public/declaracion-jurada-margarita-cargo.pdf" title="HAGA CLIC AQUÍ Y DESCARGUE LA DECLARACIÓN JURADA">HAGA CLIC AQUÍ Y DESCARGUE LA DECLARACIÓN JURADA.</a>
+
+                    <p>
+                    <p>
+                </div>
+            </div>
+        </div>
+        <img class="separator-img" src="{% static 'img/line.png' %}" alt="Separador">
+        <!-- Mudanzas-->
+
+        {# MUDANZAS #}
+        <!--div class="content background-img-2" id="mudanzas">
+
+            <h1 class="main-title3 text-center white">MUDANZAS DESDE VENEZUELA HASTA MIAMI</h1>
+            <p>
+
+
+            <p align="center" class="white">Margarita Cargo ofrece un servicio de Mudanzas Internacionales (exportación) vía marítima desde Venezuela hasta Estados Unidos en las rutas: Isla Margarita-Miami, Guanta-Miami, La Guaira-Miami y Puerto Cabello-Miami. </p>
+            <p align="center" class="white">Este es un servicio exclusivo para mudanzas personales (menaje de hogar, enseres personales), cuyos artículos deben ser "usados" y con un volumen mínimo por mudanza de 1.000 pies cúbicos o su equivalente a un contenedor de 20 pies. El tiempo aproximado en ruta desde que el contenedor sale de Venezuela hasta que llega a Estados Unidos es de entre 3 y 4 semanas. Estamos en capacidad de movilizar su mudanza desde su hogar hasta nuestros almacenes ubicados en Isla Margarita, Caracas, Valencia y Puerto la Cruz para que sea inspeccionada por los las autoridades aduaneras y de control de exportaciones; luego de esa inspección cargaremos el contenedor y lo enviaremos al puerto correspondiente para su salida hacia los Estados Unidos vía Jamaica.</p>
+
+            <p align="center" class="white">No aceptamos paquetería individual ni pallets; únicamente prestamos el servicio para contratar un contenedor completo de 20 pies o 40 pies. No aceptamos carga comercial para exportación.</p>
+
+            <p align="center" class="white">Garantizamos un manejo cuidadoso y profesional de su mudanza, bajo estándares y normas internacionales de acopio y movilización. </p>
+            <p align="center" class="white">Para más información sobre este servicio estamos a su orden en los siguientes números (WhatsApp) +58.424.411.6801 en Venezuela y +1.754.317.3813 en Estados Unidos. </p>
+            <p>
+            <h1 class="main-title3 text-center white ">IMAGENES DEL SERVICIO DE MUDANZAS DESDE VENEZUELA HASTA ESTADOS UNIDOS - MIAMI</h1>
+            <div align="center"><img width="100%" src="/public/contenedor-listo-para-cargar.jpg" alt="Imagen mudanzas desde Venezuela hasta Estados Unidos"> </div>
+            <div align="center"><img width="100%" src="/public/carga-para-inspeccion.jpg" alt="mudanza lista para inspección"> </div>
+            <div align="center"><img width="100%" src="/public/guardia-nacional-revisando.jpg" alt="guardia nacional revisando la mudanza"> </div>
+            <div align="center"><img width="100%" src="/public/perro-antidrogas.jpg" alt="perro antidrogas en la inspección"> </div>
+            <div align="center"><img width="100%" src="/public/perro-revisando.jpg" alt="perro antidrogas revisando la mudanza desde Venezuela hasta Miami"> </div>
+            <div align="center"><img width="100%" src="/public/mudanza-venezuela-miami.jpg" alt="exportación mudanza desde venezuela hasta miami"> </div>
+            <div align="center"><img width="100%" src="/public/revision-mudanza-exportacion.jpg" alt="minuciosa revisión de la mudanza antes de cargarla al contenedor"> </div>
+            <div align="center"><img width="100%" src="/public/contenedor-con-un-pallet.jpg" alt="un pallet revisado y cargado en el contenedor"> </div>
+            <div align="center"><img width="100%" src="/public/contenedor-con-dos-pallet-revisados.jpg" alt="dos pallets revisados y cargados en el contenedor"> </div>
+            <div align="center"><img width="100%" src="/public/con-tres-pallets-revisados.jpg" alt="tres pallets revisados y cargados en el contenedor"> </div>
+            <div align="center"><img width="100%" src="/public/seis-pallets-cargados-revisados.jpg" alt="seis pallets revisados y cargados en el contenedor"> </div>
+
+
+
+        </div-->
+
+        <!-- mudanzas-->
+        <!-- mudanzas-->
+
+</body>
+
+</html>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+<script src="{% static 'js/home.js' %}" rel="stylesheet"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}" rel="stylesheet"></script>

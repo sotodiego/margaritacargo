@@ -1,10 +1,10 @@
+__pycache__
+/margaritacargo/margaritacargo/settings.py
+/public/static2 
+/tmp
+/venv/*
 favicon.gif
 favicon.ico
 passenger_wsgi.py
 passenger_wsgi.pyc
-/venv
-/margaritacargo/margaritacargo/settings.py
-/tmp
-__pycache__
-/public/static2 
 token-namecheap
